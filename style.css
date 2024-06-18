@@ -1,0 +1,116 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Kurale&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+
+body {
+    font-family: 'Loved', sans-serif;
+    background-color: #800020;;
+    padding: 20px;
+}
+
+.container {
+    background: #baa79e54;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-left: 380px;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lyrics{
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    
+    color:  hsla(47, 100%, 50%, 1);
+}
+
+h1:hover{
+    color: rgb(247, 156, 10);
+}
+
+p {
+   
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Emphasis Styles */
+.dreamy {
+    font-family: "Dancing Script";
+    color: #FFE5B4;
+    font-size: 28px;   
+}
+
+.dreamy:hover{
+    color: white;
+}
+
+
+.nature{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(100, 241, 100)
+}
+
+.nature:hover{
+    color: white;
+}
+
+
+.life{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    color: #0B0B0B;
+}
+
+.life:hover{
+    color: white;
+}
+
+.nostalgia{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #750521;
+}
+
+.nostalgia:hover{
+    color: white;
+}
+
+
+.relief{
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5589cd;
+  font-size: 23px;
+
+}
+
+.relief:hover{
+    color: white;
+}
+
